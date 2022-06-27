@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Zaw Myo Khing</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<header>
+  <h1 id="title"> Online Study Survey</h1>
+</header>
+
+<body>
+  
+  <p id="description">Please complete the surveyform.</p>
+    <form id="survey-form">
+      <div class="row">
+       <div class="left-column">
+           <label id="name-label">Name:</label>
+       </div>
+       <div class="right-column">
+           <input type="text" id="name" name="name" size="30" placeholder="Enter name" required>
+       </div>
+      </div>
+  
+      <div class="row">
+       <div class="left-column">
+            <label id="email-label">Email:</label>
+       </div>
+       <div class="right-column">
+            <input type="email" id="email" name="email" size="30" placeholder="Enter email" required>
+       </div>
+      </div>
+      
+      <div class="row">
+       <div class="left-column">
+           <label id="number-label">Age:</label>
+       </div>
+       <div class="right-column">
+           <input type="number" id="number" name="number" size="30" min="18" max="99"  placeholder="Enter number only" required>
+       </div>
+      </div>
+        
+      <div class="row">
+       <div class="left-column">
+           <label id="dropdown-label">Occupation</label>
+       </div>
+       
+       <div class="right-column">
+           <select id="dropdown">
+              <option>Student</option>
+              <option>Fulltime Employee</option>
+              <option>Parttime Employee</option>
+           </select>
+       </div>
+      </div>
+          
+      <div class="row">
+       <div class="left-column">
+           <label id="radio-label">Would you recommend to study online?</label>
+       </div>
+      
+       <div class="right-column">
+           <input type="radio" id="recommend" name="fav-study" value="Recommend" checked>Recommend<br>
+           <input type="radio" id="notrecommend" name="fav-study" value="NotRecommend">Not Recommend
+       </div>
+      </div>
+       
+      <div class="row">
+       <div class="left-column">
+           <label id="checkbox-label">Your current web development skills</label>           
+       </div>
+         
+       <div class="right-column">
+           <input type="checkbox" id="html" name="skills" value="html">HTML<br>
+           <input type="checkbox" id="css" name="skills" value="css">CSS<br>
+           <input type="checkbox" id="javascript" name="skills" value="javascript">Javascript<br>
+       </div>
+      </div>
+        
+      <div class="row">
+       <div class="left-column">
+          <label>How would you study to improve your web development skills?</label>
+       </div>
+       <div class="right-column">
+           <textarea id="textarea">Please leave your comment here</textarea>
+       </div>
+      </div>
+      
+      <div class="row">
+       <div class="left-column">
+       </div>
+       <div class="right-column">
+           <input type="submit" id="submit">
+       </div>
+      </div>
+     
+    </form>
+</body>
+      
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+<!-- partial -->
+  
+</body>
+</html>

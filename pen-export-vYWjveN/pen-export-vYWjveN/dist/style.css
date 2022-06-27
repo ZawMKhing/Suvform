@@ -1,0 +1,37 @@
+body{
+  background-color: cyan;
+}
+
+#survey-form{
+  background-color: gray;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#title, #description{
+  color: red;
+  text-align: center;
+}
+
+#textarea {
+  height: 100px;
+}
+
+.left-column{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+    text-align:right;
+}
+
+.right-column{
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+  }
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
